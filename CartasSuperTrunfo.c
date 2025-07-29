@@ -33,7 +33,7 @@ int pontos1, pontos2;
     printf("Digite a área:\n");
     scanf("%f", &area1);
 
-
+    printf("\n");
         
     printf("Carta 2\n");
 
@@ -56,17 +56,19 @@ int pontos1, pontos2;
     scanf("%f", &pib2);
 
     printf("Digite a área:\n");
-    scanf("%f", &area2);  
+    scanf("%f/n", &area2); 
+    printf("\n"); 
 
 
 
     printf("Carta 1\n");
     printf("Estado: %s \n Código da carta: %s \n Nome da cidade: %s \n", estado1, código1, nome1);
     printf("População: %.1d milhões \n Pontos turísticos: %d \n PIB: %.2f bilhões \n Área: %.2f Km² \n", população1, pontos1, pib1, area1);
+    printf("\n");
 
     printf("Carta 2\n");
     printf("Estado: %s \n Código da carta: %s \n Nome da cidade: %s \n", estado2, código2, nome2);
-    printf("População: %.1d milhões \n Pontos turísticos: %d \n PIB: %.2f bilhões \n Área: %.2f KM² \n", população2, pontos2, pib2, area2);
+    printf("População: %.1d milhões \n Pontos turísticos: %d \n PIB: %.2f bilhões \n Área: %.2f Km² \n", população2, pontos2, pib2, area2);
 
 
     return 0;
