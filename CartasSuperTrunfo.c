@@ -38,7 +38,7 @@ float divisao1, divisao2, divisao3, divisao4;
 
     divisao1 = (float) população1/area1;
 
-    divisao2 = (float) pib1/população1;
+    divisao2 = (float) população1/pib1;
 
     printf("\n");
         
@@ -67,7 +67,7 @@ float divisao1, divisao2, divisao3, divisao4;
 
     divisao3 = (float) população2/area2;
 
-    divisao4 = (float) pib2/população2;
+    divisao4 = (float) população2/pib2;
 
     printf("\n"); 
 
